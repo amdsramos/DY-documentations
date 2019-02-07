@@ -1,0 +1,9 @@
+// use window.axio.get("[API URL"].then(( data) => {
+// create your own variable and get the data name according to the data names on the API
+// to check the API data names you can check it on the Console by having this 
+/*var cardnum = dataLayer[0].user.card_number;
+var userid = dataLayer[0].user.id;
+$.get( "/api/v2/account/loyalty_data?user_id="+userid+"&loyalty_card_number="+cardnum, function( data ) {
+console.log(data );
+});*/
+
