@@ -7,6 +7,8 @@ $.get( "/api/v2/account/loyalty_data?user_id="+userid+"&loyalty_card_number="+ca
 console.log(data );
 });*/
 
+// sample coding for End of Year Summary
+
 window.axios.get("/api/v2/account/loyalty_data?user_id="+userid+"&loyalty_card_number="+cardnum).then(( data ) => {
  //get current balance
   var currentbalance = data.data.data.attributes['points-since-user-membership'];
